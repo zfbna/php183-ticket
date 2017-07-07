@@ -12,7 +12,7 @@ return [
     | any other location as required by the application or its packages.
     */
 
-    'name' => env('APP_NAME', 'Laravel'),
+    'name' => env('APP_NAME', 'php183电影购票'),
 
     /*
     |--------------------------------------------------------------------------
@@ -162,9 +162,6 @@ return [
         Illuminate\Translation\TranslationServiceProvider::class,
         Illuminate\Validation\ValidationServiceProvider::class,
         Illuminate\View\ViewServiceProvider::class,
-        // 配置调试工具
-        Barryvdh\Debugbar\ServiceProvider::class,
-        
 
         /*
          * Package Service Providers...
@@ -228,9 +225,6 @@ return [
         'URL' => Illuminate\Support\Facades\URL::class,
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View' => Illuminate\Support\Facades\View::class,
-
-        // 配置调试工具
-        'Debugbar' => Barryvdh\Debugbar\Facade::class,
 
     ],
 
